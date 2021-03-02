@@ -14,7 +14,7 @@ const Count = (props) => {
             <h1 className="bg-light">Player Added: {count.length}</h1>
             <h5>Total Budget: {total}</h5>
             <ul className="player-names">
-                <li className="m-3">Player name: {props.count}</li>
+                <h5 className="mr-3">Player name: {props.count}</h5>
             </ul>
         </div>
     );
